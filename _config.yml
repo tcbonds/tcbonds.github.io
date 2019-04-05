@@ -1,0 +1,38 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Tristan Bonds
+tagline:             A Moderately Okay Data Science Blog
+url:                 http://tcbonds.github.io
+paginate:            2
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Tristan Bonds
+  url:               
+  email:             t.c.bonds@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/tcbonds
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+# Page List
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/index.html'
